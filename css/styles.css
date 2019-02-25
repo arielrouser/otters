@@ -1,0 +1,53 @@
+body {
+    background: rgb(149, 194, 215);
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.char-title {
+    background: rgb(96, 125, 139);
+    color: rgb(202, 238, 255);
+    display: block;
+    font-size: 22px;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.char-image {
+    display: block;
+    width: 100%;
+}
+
+.char-list {
+    list-style: none;
+    padding: 0;
+}
+
+.char-item {
+    border: 1px solid rgb(100%, 100%, 100%);
+    border: 1px solid rgba(100%, 100%, 100%, 0.8);
+    display: block;
+    
+}
+
+.char-item + .char-item {
+    margin-top: 10px;
+}
+
+.logo-text {
+    background: #fff;
+    font-size: 62px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
